@@ -1,4 +1,4 @@
-package moe.kurenai.dbswitch.config
+package moe.kurenai.multitenancy.config
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 

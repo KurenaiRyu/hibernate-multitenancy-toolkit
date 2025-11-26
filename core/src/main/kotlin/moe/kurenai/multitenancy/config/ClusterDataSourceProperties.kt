@@ -1,4 +1,4 @@
-package moe.kurenai.dbswitch.config
+package moe.kurenai.multitenancy.config
 
 data class ClusterDataSourceProperties(
     val jdbcUrl: String,

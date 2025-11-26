@@ -2,20 +2,11 @@ plugins {
     kotlin("jvm") version "2.2.20"
 }
 
-group = "moe.kurenai.bot"
-version = "1.0-SNAPSHOT"
+allprojects {
+    group = "moe.kurenai.multitenancy"
+    version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testImplementation(kotlin("test"))
-}
-
-tasks.test {
-    useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(21)
+    repositories {
+        mavenCentral()
+    }
 }

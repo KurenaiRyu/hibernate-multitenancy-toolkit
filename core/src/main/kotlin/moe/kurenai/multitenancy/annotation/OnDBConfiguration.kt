@@ -1,13 +1,11 @@
-package moe.kurenai.dbswitch.annotation
+package moe.kurenai.multitenancy.annotation
 
 import org.springframework.boot.autoconfigure.condition.ConditionOutcome
 import org.springframework.boot.autoconfigure.condition.SpringBootCondition
 import org.springframework.context.annotation.ConditionContext
 import org.springframework.core.annotation.MergedAnnotation
 import org.springframework.core.annotation.MergedAnnotationPredicates
-import org.springframework.core.annotation.MergedAnnotations
 import org.springframework.core.type.AnnotatedTypeMetadata
-import kotlin.streams.toList
 
 class OnDBConfiguration: SpringBootCondition() {
 
